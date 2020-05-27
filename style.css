@@ -702,18 +702,12 @@ footer {
 .footer {
     display: flex;
     display: -webkit-flex;
-    /*justify-content: center;*/
-    /*max-width: 1128px;*/
-    /*margin: 0 auto;*/
-    /*padding-right: 27%;*/
     padding: 102px 0 61px 0;
 }
 
 .footer .left,
 .footer .right {
     width: 27%;
-    /*text-align: left;*/
-    /*outline: 1px solid red;*/
 }
 
 .footer .left {
@@ -722,10 +716,8 @@ footer {
 
 .btns_wrapp {
     width: 46%;
-    /*max-width: 620px;*/
     padding: 20px 0;
     text-align: center;
-    /*outline: 1px solid red;*/
 }
 
 .white_pill {
