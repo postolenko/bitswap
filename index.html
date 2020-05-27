@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
+	<title>Bit Swap - Защищённый биткоин кошелек</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+	<!-- Header -->
+		
+	<header>
+		<div class="header_site">
+			<div class="row">
+				<div class="header_wrapp">
+					<div class="left">
+						<a href="#" class="nav_link">FAQ</a>
+					</div>
+					<div class="logo_wrapp">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="" />
+						</a>
+					</div>
+					<div class="right">
+						<a href="#" class="nav_link">Wallet</a>
+					</div>
+				</div>
+				<div class="h1_wrapp">
+					<h1>Защищённый биткоин кошелек</h1>
+				</div>
+				<div class="header_descript">
+					<p>лучшее решение для вас</p>
+				</div>
+				<div class="button_wrapp">
+					<a href="#"class="white_pill">Скачать приложение</a>
+				</div>
+			</div>
+		</div>								
+	</header>
+
+	<!-- /Header -->
+
+	<!-- Content -->
+		<div class="content">
+			<div class="row">
+
+				<div class="article">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>Cоздание аккаунта</h2>
+						<ul>
+							<li>Создать новый кошелек.</li>
+							<li>Рекомендуемый метод включает в себя следующие этапы:
+								<ol>
+							        <li>создание шестизначного PIN, его подтверждение;</li>
+							        <li>выбор количества слов и создание дополнительной защиты ключевой seed-фразы (необязательно);</li>
+							        <li>генерация ключевой seed-фразы, её подтверждение.</li>
+							    </ol>
+							</li>
+							<li>Быстрый метод запрашивает только создание PIN и подтверждение, остальные шаги используют значения по-умолчанию: 12 слов + без дополнительной защиты ключевой seed-фразы.</li>
+							<li>Создать новый кошелек, путем восстановления seed-фразы. Повторяет 1.А. с единственным отличием, генерации ключевой seed-фразы не происходит, вы сразу вводите свои данные.</li>
+							<li>Восстановить кошелек. В этом случае вам необходимы логин, пароль. А также PIN для открытия кошелька.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="article even">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>работа с резервными PINs</h2>
+						<p>Чтобы использовать аварийный PIN, сначала вы должны создать его. Рассмотрим на примере, у вас уже есть аккаунт, PIN 000001 с кошельком, на котором итоговый баланс 10 биткоинов. Порядок действий следующий:</p>
+						<ul>
+							<li>Выйдите из приложения (два раза кнопка назад из главного меню)</li>
+							<li>Откройте приложение</li>
+							<li>В правом верхнем углу нажмите «создать новый PIN»</li>
+							<li>Придумайте аварийный PIN 000002, создайте кошелек как обычно</li>
+						</ul>
+						<a href="" class="more_link">Детальнее</a>
+					</div>
+				</div>
+
+				<div class="article">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>миксование</h2>
+						<p>Миксирование используется для разрыва связи между биткоин кошельками. Поскольку блокчейн публичен, то любой может просмотреть историю транзакций. Если у вас хранится много биткоинов, вам нужно продать какую-то часть за наличные и вы не хотите привлекать к себе лишнее внимание со стороны злоумышленников, то в подобном случае, вам необходимо использовать миксирование.</p>
+						<p>На примере, на адресе А1 у вас хранится 100 биткоинов, вы хотите продать 0,4 биткоина, для этого вы создаете операцию миксирования на 0.4, указываете процент комиссии, задержку выплаты и адрес Б2 для выплаты свежих биткоинов.</p>
+						<a href="" class="more_link">Детальнее</a>
+					</div>
+				</div>
+
+				<div class="article even">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>защита кошелька</h2>
+						<p>Приложение является оффлайн кошельком. Только ваше устройство имеет доступ к ключевой seed-фразе, приватным, публичным ключам и транзакциям. При этом зашифрованный файл аккаунта хранится на сервере:</p>
+						<ul>
+							<li>При создании кошелька вы получаете случайный логин от сервера</li>
+							<li>Ваше устройство генерирует случайный пароль, который хранится только у вас</li>
+							<li>Далее вы самостоятельно создаете PIN, который не хранится в вашем устройстве</li>
+						</ul>
+						<a href="more_link">Детальнее</a>
+					</div>
+				</div>
+
+				<div class="article">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>безопасность ключевой seed-фразы</h2>
+						<p>При использовании любой криптовалюты, важно помнить о том, что ваша ключевая seed-фраза дает полный контроль над средствами. Обычно она представляет собой 12 слов из специального словаря. Реже это 18 или 24 слова. Чем больше слов тем выше безопасность, при этом 12 слов также обеспечивают достаточный уровень безопасности. А также ключая seed-фраза может иметь дополнительную защиту в виде произвольной строки-пароля. Использование этой защиты позволяет полностью исключить возможность угадывания вашего набора слов.</p>
+						<a href="more_link">Детальнее</a>
+					</div>
+				</div>
+
+				<div class="article even">
+					<div class="left">
+						<div class="phone">
+							<img src="img/phone.png" alt="" />
+						</div>
+					</div>
+					<div class="right">
+						<h2>комиссия и скорость подтверждения блоков</h2>
+						<p>Биткоин тесно связан с блокчейном. Когда вы отправляете перевод (транзакцию), он передается нескольким узлам биткоина, где рассылается по всей сети за несколько секунд. Таким образом ваша транзакция попадает в так называемых мемпул. Мемпул это хранилище неподтвержденных транзакций. Все транзакции, которые находятся в нем не зафиксированы в блокчейне, доверять неподтвержденным транзакциям опасно. Чтобы транзакция получила подтверждение, майнер должен добавить её в найденный блок.</p>
+						<a href="more_link">Детальнее</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	<!-- /Content -->
+
+	<!-- Footer -->
+
+		<footer class="footer_section">
+			<div class="row">
+				<div class="footer">
+					<div class="left">
+						<a href="#" class="logo">
+							<img src="img/logo.svg" alt="" />
+						</a>
+					</div>
+					<div class="btns_wrapp">
+						<a href="#" class="white_pill">Скачать приложение</a>
+						<a href="#" class="google_play"></a>
+					</div>
+					<div class="right"></div>
+				</div>
+			</div>
+		</footer>
+
+	<!-- /Footer -->
+
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">
+	<script src="vendors/js/jquery.js"></script>
+	<script src="slick/slick.js"></script>
+	<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="vendors/js/jquery.fancybox.js"></script>
+	<script src="js/scripts.js"></script>
+
+</body>
+</html>
