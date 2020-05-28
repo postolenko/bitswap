@@ -25,6 +25,7 @@ $(document).scroll(function() {
 
 $(document).ready(function() {
 
-	$('.article .right > ul > li:nth-child(5n+5)').addClass('five')
+	$('.article .right > ul > li:nth-child(5n+5)').addClass('five');
+	$('.sidebar > ul > li:nth-child(5n+5)').addClass('five');
 
 });
