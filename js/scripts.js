@@ -25,12 +25,6 @@ $(document).scroll(function() {
 
 $(document).ready(function() {
 
-  // $(".article .right > ul > li").each(function() {
-  //   var indeItem = $(this).index("li");
-  //   console.log(indeItem);
-  //   if(indeItem % 5) {
-  //     $(this).addClass("five");
-  //   }
-  // });
+	$('.article .right > ul > li:nth-child(5n+5)').addClass('five')
 
 });

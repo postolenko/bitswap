@@ -28,7 +28,6 @@
     font-style: normal;
 }
 
-
 /*-------------------------------------------*/
 /* BASIC SETUP */
 /*-------------------------------------------*/
@@ -686,6 +685,232 @@ textarea:focus {
     left: 0;
 }
 
+.phone_1 {
+    position: relative;
+}
+
+.phone_bg {
+/*    position: absolute;
+    top: 0;
+    left: 0;*/
+}
+
+.icon_01 {
+    position: absolute;
+    top: 82px;
+    left: 66px;
+    z-index: 2;
+}
+
+.icon_02 {
+    position: absolute;
+    top: 61px;
+    left: 312px;
+}
+
+.icon_03 {
+    position: absolute;
+    top: 283px;
+    left: 86px;
+}
+
+.icon_04 {
+    position: absolute;
+    bottom: 72px;
+    left: 65px;
+}
+
+.phone_2 {
+    position: relative;
+}
+
+.icon_05 {
+    position: absolute;
+    top: 39px;
+    left: 41px;
+}
+
+.icon_06 {
+    position: absolute;
+    top: 122px;
+    left: -76px;
+}
+
+.icon_07 {
+    position: absolute;
+    bottom: 63px;
+    left: 55px;
+}
+
+.icon_08 {
+    position: absolute;
+    bottom: 180px;
+    left: 20px;
+}
+
+.icon_09 {
+    position: absolute;
+    bottom: 87px;
+    right: 52px;
+}
+
+.phone_3 {
+    position: relative;
+}
+
+.icon_10 {
+    position: absolute;
+    top: 84px;
+    left: 73px;
+}
+
+.icon_11 {
+    position: absolute;
+    bottom: 58px;
+    left: 200px;
+}
+
+.icon_12 {
+    position: absolute;
+    top: 48px;
+    left: 230px;
+}
+
+.icon_13 {
+    position: absolute;
+    top: 83px;
+    left: 389px;
+}
+
+.icon_14 {
+    position: absolute;
+    bottom: 66px;
+    left: 117px;
+}
+
+.icon_15 {
+    position: absolute;
+    top: 179px;
+    left: 62px;
+}
+
+.phone_4 {
+    position: relative;
+}
+
+.icon_16 {
+    position: absolute;
+    top: 49px;
+    left: 78px;
+}
+
+.icon_17 {
+    position: absolute;
+    top: 301px;
+    left: 41px;
+}
+
+.icon_18 {
+    position: absolute;
+    bottom: 73px;
+    left: 58px;
+}
+
+.phone_5 {
+    position: relative;
+}
+
+.icon_19 {
+    position: absolute;
+    top: 116px;
+    left: 63px;
+}
+
+.icon_20 {
+    position: absolute;
+    top: 71px;
+    left: 74px;
+}
+
+.icon_21 {
+    position: absolute;
+    top: 246px;
+    left: 189px;
+}
+
+.icon_22 {
+    position: absolute;
+    bottom: 326px;
+    left: 6px;
+}
+
+.icon_23 {
+    position: absolute;
+    bottom: 221px;
+    left: 151px;
+    z-index: 2;
+}
+
+.icon_24 {
+    position: absolute;
+    bottom: 107px;
+    left: 66px;
+}
+
+.icon_25 {
+    position: absolute;
+    top: 67px;
+    left: 339px;
+}
+
+.icon_26 {
+    position: absolute;
+    top: 274px;
+    left: 72px;
+    -webkit-transform: rotate(-12deg);
+    -moz-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+}
+
+.phone_6 {
+    position: relative;
+}
+
+.icon_27 {
+    position: absolute;
+    top: 37px;
+    left: 92px;
+}
+
+.icon_28 {
+    position: absolute;
+    top: 54px;
+    left: 329px;
+}
+
+.icon_29 {
+    position: absolute;
+    top: 112px;
+    left: 137px;
+}
+
+.icon_30 {
+    position: absolute;
+    top: 485px;
+    left: 235px;
+}
+
+.icon_31 {
+    position: absolute;
+    bottom: 39px;
+    left: 148px;
+}
+
+.icon_32 {
+    position: absolute;
+    bottom: 64px;
+    left: 90px;
+}
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
