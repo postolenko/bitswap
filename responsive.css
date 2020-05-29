@@ -1,30 +1,487 @@
+@media only screen and (max-width: 1600px) {
+
+	.row {
+		padding: 0 25px;
+	}
+
+	/*-- Header --*/
+
+	h1 {
+	    font-size: 74px;
+	    line-height: 92px;
+	}
+
+	.h1_wrapp {
+	    margin-top: 45px;
+	}
+
+	.header_descript p {
+	    padding: 20px 0;
+	    font-size: 36px;
+	    line-height: 45px;
+	}
+
+	.button_wrapp {
+	    padding: 50px 0;
+	}
+
+	/*-- /Header --*/
+
+	.phone {
+		transform: scale(.8);
+		-webkit-transform: scale(.8);
+		position: relative;
+		left: -9%;
+	}
+
+	.article_1 {
+	    margin-top: -46px;
+	}
+
+	.article h2 {
+	    padding-bottom: 15px;
+	}
+
+	.article ul > li {
+	    margin: 20px 0;
+	}
+
+	.article .left {
+	    width: 380px;
+	}
+
+	.article .right {
+	    width: calc(100% - 380px);
+	    padding-left: 25px;
+	    padding-right: 2%;
+	}
+
+	.article_1 .right {
+	    padding-top: 167px;
+	}
+
+	.phone_3 {
+	    left: -24%;
+	}
+
+	.article_5 {
+	    margin-top: -39px;
+	}
+
+	.blue_bg:before {
+	    height: 100%;
+	    top: 50px;
+	}
+
+	.blue_bg_shape {
+	    top: 50px;
+	}
+
+	.blue_bg * {
+		color: #fff;
+	}
+
+	.article_5 .more_link {
+	    color: #9EADEB;
+	}
+
+	.article_5 .more_link:before {
+	    background-image: url(img/more_shape_2.svg);
+	}
+
+	.article_6 {
+	    margin: 10px 0 -58px 0;
+	}
+
+}
+
 @media only screen and (max-width: 1240px) {
 
+	.article_6 {
+	    margin: -28px 0 20px 0;
+	}
 
+	/*-- Section 1 - FAQ --*/
+
+	.sidebar {
+	    padding: 30px 20px 30px 30px;
+	}
+
+	.two_cols_templ .left {
+	    width: 380px;
+	    padding: 11px 25px 11px 0;
+	}
+
+	.two_cols_templ .right {
+	    width: calc(100% - 380px);
+	    padding-left: 25px;
+	}
+
+	/*-- /Section 1 - FAQ --*/
+
+	/*-- Footer --*/
+
+	.footer {
+	    padding: 58px 0 35px 0;
+	}
+
+	.footer_tr {
+		display: none;
+	}
+
+	.footer .right {
+		display: none;
+	}
+
+	.btns_wrapp {
+	    width: 73%;
+	    text-align: right;
+	}
+
+	/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	h1 {
+	    font-size: 63px;
+	    line-height: 82px;
+	}
+
+	/*-- Header --*/
+
+	.header_wrapp {
+	    padding: 15px 0;
+	}
+
+	.h1_wrapp {
+	    margin-top: 17px;
+	}
+
+	.h1_wrapp h1 {
+	    padding: 20px 0;
+	}
+
+	.button_wrapp {
+	    padding: 30px 0;
+	}
+
+	.header_descript p {
+	    padding: 15px 0;
+	    font-size: 32px;
+	    line-height: 42px;
+	}
+
+	/*-- /Header --*/
+
+	.article {
+		display: block;
+	}
+
+	.article_1 {
+	    margin-top: 26px;
+	}
+
+	.article .left {
+	    width: 100%!important;
+	    height: 570px;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	.article .right {
+	    width: 100%;
+	    padding: 30px 0 0 0;
+	}
+
+	.phone_wrapp {
+		width: 280px;
+		height: 560px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.phone {
+		width: 330px;
+		transform: scale(.6);
+		-webkit-transform: scale(.6);
+		top: -184px;
+		left: -64px;
+	}
+
+	.phone.phone_3 {
+		left: -92px;
+	}
+
+	.phone.phone_6 {
+	    left: -90px !important;
+	}
+
+	.article p {
+	    padding-top: 25px;
+	}
+
+	.article.even .right {
+	    width: 100%;
+	    order: 2;
+		padding: 30px 0 0 0;
+	    text-align: left;
+	}
+
+	.article.even ul > li {
+	    padding-left: 43px;
+	    padding-right: 0;
+	}
+
+	.article.even ul > li:before {
+	    left: 0;
+	    right: auto;
+	}
+
+	.more_link {
+	    margin-top: 29px;
+	}
+
+	.article_2_wrapp {
+	    padding-bottom: 78px;
+	}
+
+	.article_3 {
+	    margin-top: -16px;
+	    margin-bottom: 30px;
+	}
+
+	.article_4 {
+	    margin-top: 0;
+	}
+
+	.article_5 {
+	    margin-top: 0;
+	}
+
+	.article_5 {
+	    margin: 50px 0;
+	}
+
+	.article_6 {
+	    margin: 80px 0 30px 0;
+	}
+
+	.icon_09 {
+	    right: -167px;
+	}
+
+	/*-- Section 1 - FAQ --*/
+
+	.two_cols_templ {
+		display: block;
+	    margin: 44px 0;
+	}
+
+	.two_cols_templ .left {
+	    width: 100%;
+	    padding: 11px 0;
+	}
+
+	.two_cols_templ .right {
+	    width: 100%;
+	    padding: 30px 0;
+	}
+
+	.sidebar ul li {
+	    padding: 2px 0;
+	}
+
+	.single_page_article p + h2 {
+	    padding-top: 30px;
+	}
+
+	.single_page_article h2 {
+	    padding-bottom: 15px;
+	}
+
+	/*-- /Section 1 - FAQ --*/
 
 }
 
 
 @media only screen and (max-width: 900px) {
 
+	h1 {
+	    font-size: 41px;
+	    line-height: 57px;
+	}
 
+	/*-- Header --*/
+
+	.header_descript p {
+	    padding: 15px 0;
+	    font-size: 29px;
+	    line-height: 39px;
+	}
+
+	.white_pill {
+	    min-width: 260px;
+	    padding: 12px 10px;
+	}
+
+	/*-- /Header --*/
+
+	.google_play {
+	    min-height: 60px;
+	    padding: 12px 10px;
+	}
 
 }
 
 @media only screen and (max-width: 767px) {
 
+	.row {
+	    padding: 0 15px;
+	}
 
+	.footer {
+		display: block;
+	    padding: 52px 0 33px 0;
+	}
+
+	.footer .left {
+	    width: 100%;
+	}
+
+	.btns_wrapp {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.btns_wrapp .google_play {
+	    margin-left: 0;
+	}
+
+	.btns_wrapp a {
+		margin: 10px 0;
+	}
 
 }
 
 @media only screen and (max-width: 600px) {
 
+	h1 {
+	    font-size: 34px;
+	    line-height: 45px;
+	}
 
+	/*-- Header --*/
+
+	.h1_wrapp h1 {
+	    padding: 12px 0;
+	}
+
+	.header_descript p {
+	    padding: 10px 0;
+	    font-size: 24px;
+	    line-height: 39px;
+	}
+
+	.button_wrapp {
+	    padding: 18px 0;
+	}
+
+	/*-- /Header --*/
+
+	h2 {
+	    font-size: 31px;
+	    line-height: 35px;
+	}
+
+	.article ul > li {
+	    margin: 14px 0;
+	    padding-left: 29px;
+	}
+
+	li {
+	    font-size: 18px;
+	    line-height: 29px;
+	}
+
+	p {
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article ol li:before {
+	    top: 14px;
+	}
+
+	/*-- Section 1 - FAQ --*/
+
+	.sidebar {
+	    padding: 20px;
+	}
+
+	.sidebar ul li a {
+	    padding-left: 29px;
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 1 - FAQ --*/
 
 }
 
 
 @media only screen and (max-width: 480px) {
 
-	
+	h1 {
+	    font-size: 25px;
+	    line-height: 40px;
+	}
+
+	/*-- Header --*/
+
+	.header_site {
+	    padding-bottom: 20px;
+	}
+
+	.header_descript p {
+	    font-size: 16px;
+	    line-height: 24px;
+	}
+
+	/*-- /Header --*/
+
+	h2 {
+	    font-size: 25px;
+	    line-height: 35px;
+	}
+
+	li {
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	p {
+	    font-size: 16px;
+	    line-height: 27px;
+	}
+
+	.article ul > li {
+	    padding-left: 21px;
+	}
+
+	.article ul > li:before {
+	    top: 8px;
+	}
+
+	.article ol li {
+	    padding-left: 18px;
+	}
+
+}
+
+@media only screen and (max-width: 390px) {
+
+
+
 }
