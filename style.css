@@ -252,22 +252,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -439,94 +423,6 @@ textarea:focus {
     color: #0026CA;
 }
 
-/* ----- Responsive Menu Button ------ */
-
-.respmenubtn {
-    /*display: inline-block;*/
-    display: none;
-    vertical-align: top;
-    width: 45px;
-    height: 37px;
-    background: transparent;
-    cursor: pointer;
-    position: relative;
-    top: 6px;
-    z-index: 11;
-    border: 1px solid transparent;
-}
-
-.respmenubtn span {
-    display: block;
-    width: 27px;
-    height: 2px;
-    background: #466896;
-    margin: 0 auto 7px auto;
-    -webkit-transition-property: transform, border, background;
-    -webkit-transition-duration: .3s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: transform, border, background;
-    -moz-transition-duration: .3s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: transform, border, background;
-    -ms-transition-duration: .3s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: transform, border, background;
-    -o-transition-duration: .3s;
-    -o-transition-timing-function: ease;
-
-    transition-property: transform, border, background;
-    transition-duration: .3s;
-    transition-timing-function: ease;
-}
-
-.respmenubtn span:last-child {
-    margin: 0 auto;
-}
-
-.respmenubtn:active {
-    -webkit-tap-highlight-color: rgba(0,0,0,0); 
-    -webkit-tap-highlight-color: transparent;
-}
-
-.respmenubtn:hover span {
-    background: #e9ba5f;
-}
-
-.respmenubtn.active span {
-    position: relative;
-    width: 35px;
-    top: 2px;
-    left: 0;
-    background: #e9ba5f;
-}
-
-.respmenubtn.active span:last-child {
-    display: none;
-}
-
-.respmenubtn.active span:first-child {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    margin: 3px 0 0 0;
-    position: relative;
-    top: 4px;
-    left: 5px;
-}
-
-.respmenubtn.active span:nth-child(2) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
-
-/* ----- / Responsive Menu Button ------ */
-
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
@@ -555,10 +451,6 @@ textarea:focus {
 
 .article p {
     padding-top: 42px;
-}
-
-.article ul {
-
 }
 
 .article ul > li {
@@ -1880,10 +1772,6 @@ textarea:focus {
     padding: 62px 20px 46px 59px;
 }
 
-.sidebar ul {
-
-}
-
 .sidebar ul li {
     padding: 5px 0;
 }
@@ -2055,10 +1943,6 @@ footer {
     width: 46%;
     padding: 20px 0;
     text-align: center;
-}
-
-.white_pill {
-
 }
 
 .google_play {
