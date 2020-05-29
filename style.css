@@ -900,45 +900,45 @@ a:active {
     position: absolute;
     top: 84px;
     left: 73px;
-    -webkit-animation: icon_10 4s infinite;
-    -moz-animation:    icon_10 4s infinite;
-    -o-animation:      icon_10 4s infinite;
-    animation:         icon_10 4s infinite;
+    -webkit-animation: icon_10 10s infinite;
+    -moz-animation:    icon_10 10s infinite;
+    -o-animation:      icon_10 10s infinite;
+    animation:         icon_10 10s infinite;
 }
 
 @keyframes icon_10 {
     0% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
     50% {
-        top: 120px;
+        transform: rotate(100deg);
     }
     100% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
 }
 
 @-webkit-keyframes icon_10 {
     0% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
     50% {
-        top: 120px;
+        transform: rotate(100deg);
     }
     100% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
 }
 
 @-moz-keyframes icon_10 {
     0% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
     50% {
-        top: 120px;
+        transform: rotate(100deg);
     }
     100% {
-        top: 84px;
+        transform: rotate(-100deg);
     }
 }
 
@@ -946,45 +946,45 @@ a:active {
     position: absolute;
     bottom: 58px;
     left: 200px;
-    -webkit-animation: icon_11 4s infinite;
-    -moz-animation:    icon_11 4s infinite;
-    -o-animation:      icon_11 4s infinite;
-    animation:         icon_11 4s infinite;
+    -webkit-animation: icon_11 10s infinite;
+    -moz-animation:    icon_11 10s infinite;
+    -o-animation:      icon_11 10s infinite;
+    animation:         icon_11 10s infinite;
 }
 
 @keyframes icon_11 {
     0% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
     50% {
-        bottom: 90px;
+        transform: rotate(100deg);
     }
     100% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
 }
 
 @-webkit-keyframes icon_11 {
     0% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
     50% {
-        bottom: 90px;
+        transform: rotate(100deg);
     }
     100% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
 }
 
 @-moz-keyframes icon_11 {
     0% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
     50% {
-        bottom: 90px;
+        transform: rotate(100deg);
     }
     100% {
-        bottom: 58px;
+        transform: rotate(-100deg);
     }
 }
 
@@ -1153,45 +1153,45 @@ a:active {
     position: absolute;
     bottom: 73px;
     left: 58px;
-    -webkit-animation: icon_18 4s infinite;
-    -moz-animation:    icon_18 4s infinite;
-    -o-animation:      icon_18 4s infinite;
-    animation:         icon_18 4s infinite;
+    -webkit-animation: icon_18 3s infinite;
+    -moz-animation:    icon_18 3s infinite;
+    -o-animation:      icon_18 3s infinite;
+    animation:         icon_18 3s infinite;
 }
 
 @keyframes icon_18 {
     0% {
-        bottom: 73px;
+        left: 48px;
     }
     50% {
-        bottom: 40px;
+        left: 68px;
     }
     100% {
-        bottom: 73px;
+        left: 48px;
     }
 }
 
 @-webkit-keyframes icon_18 {
     0% {
-        bottom: 73px;
+        left: 48px;
     }
     50% {
-        bottom: 40px;
+        left: 68px;
     }
     100% {
-        bottom: 73px;
+        left: 48px;
     }
 }
 
 @-moz-keyframes icon_18 {
     0% {
-        bottom: 73px;
+        left: 48px;
     }
     50% {
-        bottom: 40px;
+        left: 68px;
     }
     100% {
-        bottom: 73px;
+        left: 48px;
     }
 }
 
@@ -1928,6 +1928,8 @@ footer {
     display: flex;
     display: -webkit-flex;
     padding: 102px 0 61px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .footer .left,
@@ -1951,13 +1953,14 @@ footer {
     min-width: 223px;
     min-height: 74px;
     padding: 19px 10px 20px 10px;
-    background: #2B2A29;
+    background-color: #2B2A29;
     -webkit-border-radius: 45px;
     -moz-border-radius: 45px;
     border-radius: 45px;
-    background-image: url(img/google_play.png);
-    background-position: center;
+    background-image: url(img/google_play.svg);
+    background-position: 12px -63px;
     background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .btns_wrapp .google_play {
