@@ -55,6 +55,8 @@ e = d.documentElement,
 g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
+var curTop;
+
 $(window).resize(function() {
 	getAnimation();
 	getSidebarPosition();
@@ -80,8 +82,35 @@ $(document).ready(function() {
         if( $("#sidebar").is(":hidden") ) {
             $("#sidebar").fadeIn(300);
             $(this).addClass("active");
+            div = document.createElement('div');
+	        div.style.overflowY = 'scroll';
+	        div.style.width = '50px';
+	        div.style.height = '50px';
+	        div.style.visibility = 'hidden';
+	        document.body.appendChild(div);
+	        scrollWidth = div.offsetWidth - div.clientWidth;
+	        document.body.removeChild(div);
+	        $("body").addClass("fixed");
+	        $("body").css({
+	            "position" : "fixed",
+	            "top" :  -$(document).scrollTop() + "px",
+	            "overflow" : "hidden",
+	            "right" : 0,
+	            "left" : 0,
+	            "bottom" : 0,
+	            "padding-right" : scrollWidth + "px"
+	        });
+	        $(".popup_bg").fadeIn(300);
+	        $("[data-popup = '"+ popupName +"']").fadeIn(300);
         } else {
             $("#sidebar").fadeOut(300);
+            curTop = $("body").css("top");
+            curTop = Math.abs(parseInt(curTop, 10));
+            $("body").attr("style", "");
+            if (curTop !== 0) {
+                $("html").scrollTop(curTop);
+            }
+            $("body").removeClass("fixed");
             $(this).removeClass("active");
         }
     });
@@ -89,6 +118,13 @@ $(document).ready(function() {
         if (eventObject.which == 27 &&
             $("#sidebar").is(":visible") ) {
                 $("#sidebar").fadeOut(300);
+	            curTop = $("body").css("top");
+	            curTop = Math.abs(parseInt(curTop, 10));
+	            $("body").attr("style", "");
+	            if (curTop !== 0) {
+	                $("html").scrollTop(curTop);
+	            }
+	            $("body").removeClass("fixed");
                 $(".resp_menu_btn").removeClass("active");
         }
     });
@@ -96,6 +132,13 @@ $(document).ready(function() {
     $(".close_sidebar").on("click", function(e) {
     	e.preventDefault();
     	$("#sidebar").fadeOut(300);
+    	curTop = $("body").css("top");
+        curTop = Math.abs(parseInt(curTop, 10));
+        $("body").attr("style", "");
+        if (curTop !== 0) {
+            $("html").scrollTop(curTop);
+        }
+        $("body").removeClass("fixed");
     	$(".resp_menu_btn").removeClass("active");
     });
 
