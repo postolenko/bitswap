@@ -100,8 +100,6 @@ $(document).ready(function() {
 	            "bottom" : 0,
 	            "padding-right" : scrollWidth + "px"
 	        });
-	        $(".popup_bg").fadeIn(300);
-	        $("[data-popup = '"+ popupName +"']").fadeIn(300);
         } else {
             $("#sidebar").fadeOut(300);
             curTop = $("body").css("top");
