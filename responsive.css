@@ -359,6 +359,14 @@
 	    padding: 0 15px;
 	}
 
+	.article_bottom_bg {
+		display: none;
+	}
+
+	.article_2_wrapp:after {
+		display: none;
+	}
+
 	/*-- Section 1 - FAQ --*/
 
 	.resp_menu_btn_wrapp {
